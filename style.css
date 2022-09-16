@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    /* height: 100vh; */
+
+    font-family:Arial, Helvetica, sans-serif;
+
+
+}
+
+
+
+
+/* wordle container */
+
+.wordle-container{
+
+    height: 100vh;
+    background-color:#1f2937;
+    border: 2px solid black;
+
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+
+}
+
+
+/* heading-text */
+
+.heading-text{
+    /* text-transform: uppercase; */
+    letter-spacing: 4px;
+
+    /* margin-top: 15px; */
+
+    color: #fff;
+    
+}
+/* chances - container */
+
+.chances-container{
+    /* border: 2px solid rgb(180, 65, 65); */
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    /* height: 500px; */
+    /* width: 500px; */
+
+    margin-top: 100px;
+}
+
+
+/* row-container */
+
+.row-container{
+    /* border: 2px solid pink; */
+
+    display: flex;
+    justify-content: center;
+    gap: 3px;
+
+    margin: 2px;
+}
+
+/* columns */
+
+.column{
+    height: 50px;
+    width: 50px;
+    border: 1px solid rgb(252, 248, 248);
+
+    /* margin: 5px; */
+}
+
+/* keyboard-container */
+.keyboard-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+}
+/* btns */
+
+.btn{
+    height: 50px;
+    width: 50px;
+}
+
+.btn-backspace{
+    height: 50px;
+    width: 90px;
+}
+
+.btn-enter{
+    height: 50px;
+    width: 80px;
+}
