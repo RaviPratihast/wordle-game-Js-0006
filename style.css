@@ -106,3 +106,10 @@ body{
     height: 50px;
     width: 80px;
 }
+
+.btn-key{
+    cursor: pointer;
+    /* border-top-left-radius: 10px; */
+    border-radius: 12px;
+    border: 0;
+}
