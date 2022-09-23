@@ -40,9 +40,3 @@ KeyboardKeys.addEventListener('click',function(e){
 
 
 // rows and columns access
-
-function rowsColumns(){
-    for(let i=0;i<5;i++){
-
-    }
-}
