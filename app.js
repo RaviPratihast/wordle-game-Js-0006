@@ -22,21 +22,7 @@ KeyboardKeys.addEventListener('click',function(e){
        }
     }
 
-    // console.log(arrInputData);
+    console.log(arrInputData);
 })
 
 
-
-// when the key's were inside the array it should directly passed it to the box in the appearence.
-
-
-// function arrIterate(arr){
-//     console.log(arr);
-//     arr.forEach((e)=>console.log(e));
-// };
-
-
-// arrIterate(arrInputData);
-
-
-// rows and columns access
